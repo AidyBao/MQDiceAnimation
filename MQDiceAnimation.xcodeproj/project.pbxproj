@@ -12,6 +12,8 @@
 		7A2AEF2C2179C5AA00D1EF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2AEF2A2179C5AA00D1EF48 /* Main.storyboard */; };
 		7A2AEF2E2179C5AC00D1EF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2AEF2D2179C5AC00D1EF48 /* Assets.xcassets */; };
 		7A2AEF312179C5AC00D1EF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2AEF2F2179C5AC00D1EF48 /* LaunchScreen.storyboard */; };
+		7A2AEF3A2179C65D00D1EF48 /* MQDiceAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2AEF392179C65D00D1EF48 /* MQDiceAnimationView.swift */; };
+		7A2AEF3C2179C7AC00D1EF48 /* DiceAnimationImg.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2AEF3B2179C7AC00D1EF48 /* DiceAnimationImg.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7A2AEF2D2179C5AC00D1EF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2AEF302179C5AC00D1EF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2AEF322179C5AC00D1EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2AEF392179C65D00D1EF48 /* MQDiceAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQDiceAnimationView.swift; sourceTree = "<group>"; };
+		7A2AEF3B2179C7AC00D1EF48 /* DiceAnimationImg.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DiceAnimationImg.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		7A2AEF252179C5AA00D1EF48 /* MQDiceAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7A2AEF382179C62C00D1EF48 /* DiceView */,
 				7A2AEF262179C5AA00D1EF48 /* AppDelegate.swift */,
 				7A2AEF282179C5AA00D1EF48 /* ViewController.swift */,
 				7A2AEF2A2179C5AA00D1EF48 /* Main.storyboard */,
 				7A2AEF2D2179C5AC00D1EF48 /* Assets.xcassets */,
+				7A2AEF3B2179C7AC00D1EF48 /* DiceAnimationImg.xcassets */,
 				7A2AEF2F2179C5AC00D1EF48 /* LaunchScreen.storyboard */,
 				7A2AEF322179C5AC00D1EF48 /* Info.plist */,
 			);
 			path = MQDiceAnimation;
+			sourceTree = "<group>";
+		};
+		7A2AEF382179C62C00D1EF48 /* DiceView */ = {
+			isa = PBXGroup;
+			children = (
+				7A2AEF392179C65D00D1EF48 /* MQDiceAnimationView.swift */,
+			);
+			path = DiceView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 				7A2AEF312179C5AC00D1EF48 /* LaunchScreen.storyboard in Resources */,
 				7A2AEF2E2179C5AC00D1EF48 /* Assets.xcassets in Resources */,
 				7A2AEF2C2179C5AA00D1EF48 /* Main.storyboard in Resources */,
+				7A2AEF3C2179C7AC00D1EF48 /* DiceAnimationImg.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2AEF3A2179C65D00D1EF48 /* MQDiceAnimationView.swift in Sources */,
 				7A2AEF292179C5AA00D1EF48 /* ViewController.swift in Sources */,
 				7A2AEF272179C5AA00D1EF48 /* AppDelegate.swift in Sources */,
 			);
